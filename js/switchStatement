@@ -1,0 +1,268 @@
+switch(true) {
+
+case (childObject.age <= 365 && childObject.weight < 784 && childObject.height < 57) :
+                var divRF = document.createElement('div');
+                divRF.setAttribute('class', 'outputDiv');
+                divRF.innerHTML = document.getElementById('RF').innerHTML; 
+                document.getElementById("targetElement").appendChild(divRF);
+                document.getElementById("FormDone").style.display = "none";
+
+        break;
+
+case (childObject.age >= 366 && childObject.age < 731 && childObject.weight <= 624 && childObject.height < 57) :
+                var divRF = document.createElement('div');
+                divRF.setAttribute('class', 'outputDiv');
+                divRF.innerHTML = document.getElementById('RF').innerHTML; 
+                document.getElementById("targetElement").appendChild(divRF);
+                document.getElementById("FormDone").style.display = "none";
+
+        break;
+
+case (childObject.age >= 366 && childObject.age < 731 && childObject.weight >= 625 && childObject.weight <= 784 && childObject.height < 57) :
+                var divRFFF = document.createElement('div');
+                divRFFF.setAttribute('class', 'outputDiv');
+                divRFFF.innerHTML = document.getElementById('RFFF').innerHTML; 
+                document.getElementById("targetElement").appendChild(divRFFF);  
+                document.getElementById("FormDone").style.display = "none";
+
+        break;
+
+case (childObject.age >= 731 && childObject.age <= 1095 && childObject.weight <= 319 && childObject.height < 57) :
+                var divRF = document.createElement('div');
+                divRF.setAttribute('class', 'outputDiv');
+                divRF.innerHTML = document.getElementById('RF').innerHTML; 
+                document.getElementById("targetElement").appendChild(divRF);
+                document.getElementById("FormDone").style.display = "none";
+
+        break;
+
+case (childObject.age >= 731 && childObject.age <= 1095 && childObject.weight >= 320 && childObject.weight <= 784 && childObject.height < 57) :
+         var divRFFF = document.createElement('div');
+                divRFFF.setAttribute('class', 'outputDiv');
+                divRFFF.innerHTML = document.getElementById('RFFF').innerHTML; 
+                document.getElementById("targetElement").appendChild(divRFFF);  
+                document.getElementById("FormDone").style.display = "none";
+
+        break;
+
+case (childObject.age >= 731 && childObject.age <= 1095 && childObject.weight > 799 && childObject.weight < 1265 && childObject.height < 57) :
+            var divFF = document.createElement('div');
+                divFF.setAttribute('class', 'outputDiv');
+                divFF.innerHTML = document.getElementById('FF').innerHTML; 
+                document.getElementById("targetElement").appendChild(divFF);    
+                document.getElementById("FormDone").style.display = "none";
+
+    break;      
+
+case (childObject.age > 1095 && childObject.age <= 1460 && childObject.weight >= 320 && childObject.weight < 625 && childObject.height < 57) :
+         var divRFFF = document.createElement('div');
+                divRFFF.setAttribute('class', 'outputDiv');
+                divRFFF.innerHTML = document.getElementById('RFFF').innerHTML; 
+                document.getElementById("targetElement").appendChild(divRFFF);  
+                document.getElementById("FormDone").style.display = "none";
+
+        break;
+
+case (childObject.age >= 1095 && childObject.age <= 1460 && childObject.weight > 639 && childObject.weight < 1265 && childObject.height < 57) :
+            var divFF = document.createElement('div');
+                divFF.setAttribute('class', 'outputDiv');
+                divFF.innerHTML = document.getElementById('FF').innerHTML; 
+                document.getElementById("targetElement").appendChild(divFF);    
+                document.getElementById("FormDone").style.display = "none";
+
+    break;   
+
+case (childObject.age > 1460 && childObject.age <= 1825 && childObject.weight >= 320 && childObject.weight < 625 && childObject.height < 57) :
+         var divRFFF = document.createElement('div');
+                divRFFF.setAttribute('class', 'outputDiv');
+                divRFFF.innerHTML = document.getElementById('RFFF').innerHTML; 
+                document.getElementById("targetElement").appendChild(divRFFF);  
+                document.getElementById("FormDone").style.display = "none";
+
+        break;
+
+
+
+case (childObject.age >= 1460 && childObject.age <=1825 && childObject.weight > 640 && childObject.weight < 1264 && childObject.height < 57) :
+         var divFFBS = document.createElement('div');
+                divFFBS.setAttribute('class', 'outputDiv');
+                divFFBS.innerHTML = document.getElementById('FFBS').innerHTML; 
+                document.getElementById("targetElement").appendChild(divFFBS);  
+                document.getElementById("FormDone").style.display = "none";
+
+        break;
+
+case (childObject.age >= 1460 && childObject.age <=1825 && childObject.weight > 640 && childObject.weight < 1265 && childObject.height < 57) :
+         var divFFBS = document.createElement('div');
+                divFFBS.setAttribute('class', 'outputDiv');
+                divFFBS.innerHTML = document.getElementById('FFBS').innerHTML; 
+                document.getElementById("targetElement").appendChild(divFFBS);  
+                document.getElementById("FormDone").style.display = "none";
+
+        break;
+
+case (childObject.age >= 1460 && childObject.age <=1825 && childObject.weight > 1279 && childObject.height < 57) :
+         var divBS = document.createElement('div');
+                divBS.setAttribute('class', 'outputDiv');
+                divBS.innerHTML = document.getElementById('BS').innerHTML; 
+                document.getElementById("targetElement").appendChild(divBS);
+                document.getElementById("FormDone").style.display = "none";
+    
+        break;
+
+case (childObject.age >= 1460 && childObject.age <=1825 && childObject.weight > 1279 && childObject.height > 57) :
+                var divSB = document.createElement('div');
+                divSB.setAttribute('class', 'outputDiv');
+                divSB.innerHTML = document.getElementById('seatbelt').innerHTML; 
+                document.getElementById("targetElement").appendChild(divSB);    
+                document.getElementById("FormDone").style.display = "none";
+
+
+                break;      
+
+case (childObject.age >= 1825 && childObject.age <= 2190 && childObject.weight > 319 && childObject.weight < 625 && childObject.height < 57) :
+            var divFF = document.createElement('div');
+                divFF.setAttribute('class', 'outputDiv');
+                divFF.innerHTML = document.getElementById('FF').innerHTML; 
+                document.getElementById("targetElement").appendChild(divFF);    
+                document.getElementById("FormDone").style.display = "none";
+
+    break; 
+
+case (childObject.age >= 1825 && childObject.age <= 2190 && childObject.weight > 639 && childObject.weight < 1265 && childObject.height < 57) :
+         var divFFBS = document.createElement('div');
+                divFFBS.setAttribute('class', 'outputDiv');
+                divFFBS.innerHTML = document.getElementById('FFBS').innerHTML; 
+                document.getElementById("targetElement").appendChild(divFFBS);  
+                document.getElementById("FormDone").style.display = "none";
+
+        break;
+
+case (childObject.age >= 1825 && childObject.age <= 2190 && childObject.weight > 1279 && childObject.height < 57) :
+         var divBS = document.createElement('div');
+                divBS.setAttribute('class', 'outputDiv');
+                divBS.innerHTML = document.getElementById('BS').innerHTML; 
+                document.getElementById("targetElement").appendChild(divBS);
+                document.getElementById("FormDone").style.display = "none";
+    
+        break;
+
+case (childObject.age >= 1825 && childObject.age <= 2190 && childObject.weight > 1279 && childObject.height > 57) :
+                var divSB = document.createElement('div');
+                divSB.setAttribute('class', 'outputDiv');
+                divSB.innerHTML = document.getElementById('seatbelt').innerHTML; 
+                document.getElementById("targetElement").appendChild(divSB);    
+                document.getElementById("FormDone").style.display = "none";
+
+
+                break;   
+
+case (childObject.age >= 2190 && childObject.age <= 2555 && childObject.weight > 319 && childObject.weight < 625 && childObject.height < 57) :
+            var divFF = document.createElement('div');
+                divFF.setAttribute('class', 'outputDiv');
+                divFF.innerHTML = document.getElementById('FF').innerHTML; 
+                document.getElementById("targetElement").appendChild(divFF);    
+                document.getElementById("FormDone").style.display = "none";
+
+    break;
+
+case (childObject.age >= 2190 && childObject.age <= 2555 && childObject.weight > 639 && childObject.weight < 1265 && childObject.height < 57) :
+         var divFFBS = document.createElement('div');
+                divFFBS.setAttribute('class', 'outputDiv');
+                divFFBS.innerHTML = document.getElementById('FFBS').innerHTML; 
+                document.getElementById("targetElement").appendChild(divFFBS);  
+                document.getElementById("FormDone").style.display = "none";
+
+        break;
+
+case (childObject.age >= 2190 && childObject.age <= 2555 && childObject.weight > 1279 && childObject.height < 57) :
+         var divBS = document.createElement('div');
+                divBS.setAttribute('class', 'outputDiv');
+                divBS.innerHTML = document.getElementById('BS').innerHTML; 
+                document.getElementById("targetElement").appendChild(divBS);
+                document.getElementById("FormDone").style.display = "none";
+    
+        break;
+
+case (childObject.age >= 2190 && childObject.age <= 2555 && childObject.weight > 1279 && childObject.height > 57) :
+                var divSB = document.createElement('div');
+                divSB.setAttribute('class', 'outputDiv');
+                divSB.innerHTML = document.getElementById('seatbelt').innerHTML; 
+                document.getElementById("targetElement").appendChild(divSB);    
+                document.getElementById("FormDone").style.display = "none";
+
+
+                break; 
+
+case (childObject.age >= 2555 && childObject.age <= 2920 && childObject.weight > 319 && childObject.weight < 625 && childObject.height < 57) :
+            var divFF = document.createElement('div');
+                divFF.setAttribute('class', 'outputDiv');
+                divFF.innerHTML = document.getElementById('FF').innerHTML; 
+                document.getElementById("targetElement").appendChild(divFF);    
+                document.getElementById("FormDone").style.display = "none";
+
+    break;
+
+case (childObject.age >= 2555 && childObject.age <= 2920 && childObject.weight > 639 && childObject.weight < 1265 && childObject.height < 57) :
+         var divFFBS = document.createElement('div');
+                divFFBS.setAttribute('class', 'outputDiv');
+                divFFBS.innerHTML = document.getElementById('FFBS').innerHTML; 
+                document.getElementById("targetElement").appendChild(divFFBS);  
+                document.getElementById("FormDone").style.display = "none";
+
+        break;
+
+case (childObject.age >= 2555 && childObject.age <= 2920 && childObject.weight > 1279 && childObject.height < 57) :
+         var divBS = document.createElement('div');
+                divBS.setAttribute('class', 'outputDiv');
+                divBS.innerHTML = document.getElementById('BS').innerHTML; 
+                document.getElementById("targetElement").appendChild(divBS);
+                document.getElementById("FormDone").style.display = "none";
+    
+        break;
+
+case (childObject.age >= 2555 && childObject.age <= 2920 && childObject.weight > 1279 && childObject.height > 57) :
+                var divSB = document.createElement('div');
+                divSB.setAttribute('class', 'outputDiv');
+                divSB.innerHTML = document.getElementById('seatbelt').innerHTML; 
+                document.getElementById("targetElement").appendChild(divSB);    
+                document.getElementById("FormDone").style.display = "none";
+
+
+                break; 
+
+case (childObject.age >=  2921 && childObject.weight > 639 && childObject.weight < 1265 && childObject.height < 57) :
+         var divFFBS = document.createElement('div');
+                divFFBS.setAttribute('class', 'outputDiv');
+                divFFBS.innerHTML = document.getElementById('FFBS').innerHTML; 
+                document.getElementById("targetElement").appendChild(divFFBS);  
+                document.getElementById("FormDone").style.display = "none";
+
+        break;
+
+case (childObject.age >=  2921 && childObject.weight > 1279 && childObject.height < 57) :
+         var divBS = document.createElement('div');
+                divBS.setAttribute('class', 'outputDiv');
+                divBS.innerHTML = document.getElementById('BS').innerHTML; 
+                document.getElementById("targetElement").appendChild(divBS);
+                document.getElementById("FormDone").style.display = "none";
+    
+        break;
+
+case (childObject.age >= 2921 && childObject.weight > 1279 && childObject.height > 57) :
+                var divSB = document.createElement('div');
+                divSB.setAttribute('class', 'outputDiv');
+                divSB.innerHTML = document.getElementById('seatbelt').innerHTML; 
+                document.getElementById("targetElement").appendChild(divSB);    
+                document.getElementById("FormDone").style.display = "none";
+
+
+                break; 
+
+
+default:
+alert("Your entry is not valid. Refresh the page and try again.");
+
+
+
+}

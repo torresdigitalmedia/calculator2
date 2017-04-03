@@ -1,0 +1,113 @@
+
+.formStyle {
+	  font-size:18pt;
+     height:75px;
+     width:125px;
+	margin: 0 auto;  
+	padding-top: 7px;
+	padding-bottom: 7px;  
+	text-align: center; 
+}
+
+#submitButton {
+	background-color: #104378;
+	height:55px;
+     width:155px;
+}
+
+#header {
+	font-size: 22px;
+	font-weight: bold;
+	position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    margin-left: 100px;
+}
+
+
+ #Form{
+color: red;
+padding-top: 110px;
+padding-right: 80px;
+
+ }
+
+ #ageDiv {
+    text-align: center;
+
+ }
+
+ #weightDiv {
+
+ 	background: #FFF url('../images/calcWeight.png') no-repeat top left;
+    text-align: center;
+ 	height: 515px;
+    width: 450px;
+    max-width: 450px;
+    max-height: 515px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    margin-top: 80px;
+ }
+
+ #heightDiv {
+
+ 	background: #FFF url('../images/calcHeight.png') no-repeat top left;
+    text-align: center;
+ 	height: 515px;
+    width: 450px;
+    max-width: 450px;
+    max-height: 515px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    margin-top: 80px;
+}
+
+ .button {
+    background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.outputDiv {
+    background-color: #EFEFEF; /* Light Gray*/
+    color: #404040;
+    font-family: helvetica;
+    height: 515px;
+    width: 450px;
+    max-width: 450px;
+    max-height: 515px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    margin-top: 80px;
+}
+
+#circle {
+
+    text-align:center;
+    border: none;
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+
+#circle1 {
+
+    text-align:right;
+    border: none;
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+

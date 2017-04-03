@@ -1,0 +1,229 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta title="Car Seat Calculator">
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+
+</head>
+<body onload="hide()">
+
+	<div id="targetElement">
+
+	</div>	
+
+	<div>
+<p id="header">Enter the Child's Information Below</p>
+
+	</div>
+	<div id="ageDiv">
+
+	<form id="Form">
+
+	
+	<section class = "formStyle">	
+		<input type="text" name="mm" required="required" class="formStyle" id="mm" placeholder="mm">
+	</section>
+
+	<section class = "formStyle">	
+		<input type="text" name="dd" required="required" class="formStyle" id="dd" placeholder="dd">
+	</section>
+
+	<section class = "formStyle">	
+		<input type="text" name="yyyy" required="required" class="formStyle" id="yyyy" placeholder="yyyy">
+	</section>
+
+
+
+		<p>
+
+			<input type="button" class="button" onclick="getValueAge()" value="Submit" id="submitButton">
+
+        </p>
+
+
+	
+       
+	</form>
+</div>
+
+<div id="weightDiv">
+	<form id="Form">
+		
+
+	
+	<section class = "formStyle">	
+		<input type="text" name="pounds" required="required" class="formStyle" id="pounds" placeholder="pounds">
+	</section>
+
+	<section class = "formStyle">
+
+		<input type="text" name="ounces" required="required" class="formStyle" id="ounces" placeholder="ounces">
+	</section>
+
+
+
+		<p>
+
+			<input type="button" class="button" onclick="getValueWeight()" value="Submit" id="submitButton">
+
+        </p>
+
+
+	
+       
+	</form>
+</div>
+
+<div id="heightDiv">
+	<form id="Form">
+		
+
+	
+		<section class = "formStyle">	
+		<input type="text" name="feet" required="required" class="formStyle" id="feet" placeholder="feet">
+	</section>
+
+	<section class = "formStyle">
+
+		<input type="text" name="inches" required="required" class="formStyle" id="inches" placeholder="inches">
+	</section>
+
+
+		<p>
+
+			<input type="button" class="button" onclick="getValueHeightAndSubmit()" value="Submit" id="submitButton">
+
+        </p>
+
+
+	
+       
+	</form>
+</div>
+
+	
+
+
+
+<script id="RF" language="text">
+<p><strong>Your child should ride in a REAR FACING CAR SEAT</strong></p>
+	<ul><strong>Rear facing car seats include:</strong>
+		<li>Rear facing only seats</li>
+		<li>Convertible seats</li>
+		<li>All-in-one-seats</li>
+	</ul>
+
+<ul><strong>Facts:</strong>
+		<li>Its best to keep a child rear facing as long as they are within the weight and height limits for the car seat.</li>
+		<li>Rear facing is five times safer than forward facing.</li>
+		<li>A child’s head, neck and spine are better protected when rear facing.</li>
+	</ul>
+
+	<ul><strong>How child should fit in rear facing car seat:</strong>
+		<li>Top of child’s head should be at least 1 inch below the top of the car seat.</li>
+		<li>Harness straps should be at or below the child’s shoulders.</li>
+		<li>Harness straps should be snug.</li>
+		<li>Chest clip should be at armpit level.</li>
+	</ul>
+<img id="circle" src="images/rearFace.png"/>
+
+<audio autoplay>
+  <source src="" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+</script>
+
+<script id="RFFF" language="text">
+<p><strong>This child may be able to ride in a rear facing car seat or a forward facing car seat.</strong></p>
+	<ul><strong>If the child has reached the rear facing height or weight limits of the car seat, you should:</strong>
+		<li>Look for a different rear facing car seat with higher weight and height limits.</li>
+		<li>Use a forward facing car seat.</li>
+	</ul>
+<img id="circle" src="images/rearFace.png"/>
+<img id="circle" src="images/forwardFace.png"/>
+
+</script>
+
+<script id="FF" language="text">
+<p><strong>This child should ride in a forward facing car seat.</strong></p>
+	<ul><strong>Forward facing seats:</strong>
+		<li>Convertible seats</li>
+		<li>Combination seats</li>
+		<li>All-in-one-seats</li>
+	</ul>
+
+<ul><strong>Facts:</strong>
+		<li>Its best to keep a child rear facing as long as they are within the weight and height limits for the car seat.</li>
+		<li>A forward facing car seat with harness protects a child by contacting the strongest parts of the body and spreading the crash forces over a wide area of the body.</li>
+	</ul>
+
+	<ul><strong>How child should fit in rear facing car seat:</strong>
+		<li>Top of child’s head should be at least 1 inch below the top of the car seat.</li>
+		<li>Harness straps should be at or below the child’s shoulders.</li>
+		<li>Harness straps should be snug.</li>
+		<li>Chest clip should be at armpit level.</li>
+	</ul>
+<img id="circle" src="images/forwardFace.png"/>
+
+</script>
+
+<script id="FFBS" language="text">
+<p><strong>This child may be able to ride in a forward facing car seat or a booster seat.</strong></p>
+	<ul><strong>If the child has reached the forward facing height or weight limits of the car seat, you should:</strong>
+		<li>Look for a different forward facing car seat with higher weight and height limits.</li>
+		<li>Use a booster seat.</li>
+	</ul>
+<img id="circle" src="images/forwardFace.png"/>
+<img id="circle1" src="images/booster.png"/>
+<input type="button" class="button" onclick="getValueHeightAndSubmit()" value="Try Again" id="submitButton">
+
+</script>
+
+<script id="BS" language="text">
+<p><strong>This child should ride in a booster seat.</strong></p>
+	<ul><strong>Forward facing seats:</strong>
+		<li>High back booster seats</li>
+		<li>Backless booster seats</li>
+		<li>Combination seats</li>
+		<li>All-in-one-seats</li>
+	</ul>
+
+<ul><strong>Facts:</strong>
+		<li>Its best to keep a child rear facing as long as they are within the weight and height limits for the car seat.</li>
+		<li>A booster seat raises a child so the vehicle’s lap and shoulder belts fit properly over the strongest parts of the child’s body.</li>
+	</ul>
+
+	<ul><strong>How child should fit in booster seat:</strong>
+		<li>Top of child’s ears should not be above the top of the booster seat or vehicle seat.</li>
+		<li>Lap belt must be flat and snug, touching the child’s thighs.</li>
+		<li>Shoulder belt must be flat and snug, between the child’s neck and arm.</li>
+	</ul>
+<img id="circle" src="images/booster.png"/>
+
+</script>
+
+<script id="seatbelt" language="text">
+<p><strong>This child may be able to ride in a seat belt.</strong></p>
+	<ul><strong>A seat belt fits properly when the:</strong>
+		<li>Child can sit all the way back against the vehicle seat.</li>
+		<li>Child’s knees bend comfortably at the edge of the vehicle seat.</li>
+		<li>Lap belt is flat and snug, touching the child’s thighs</li>
+		<li>Shoulder belt is flat and snug, between the child’s neck and arm.</li>
+		<li>Child stays seated like this for the whole trip.</li>
+	</ul>
+
+	Children should ride in the back seat until age 13.
+
+<img id="circle" src="images/seatbelt.png"/>
+
+</script>
+
+	<main class="mainBody">
+		<script type="text/javascript" src="js/logic.js"></script>
+
+	</main>
+
+</body>
+</html>
+		
