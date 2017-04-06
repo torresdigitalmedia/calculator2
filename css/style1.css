@@ -1,3 +1,8 @@
+/*IE help */
+header, section, footer, aside, nav, main, article, figure, div, form{
+    display: block; 
+}
+
 * {
     box-sizing: border-box;
 }
@@ -42,9 +47,59 @@ img {
     font-size: 16px;
     margin: 10px 0;
 }
+.button:hover{
+  background-color: #012744; 
+}
 #submit {
   text-align: center;
  }
+.target {
+  background-color: #012744;
+  margin-right: auto;
+  margin-left: auto;
+}
+.targetSB {
+  width:66.66666%;
+  background-color: #e87d1d;
+  margin-right: auto;
+  margin-left: auto;
+}
+.targetBS {
+  width:66.66666%;
+  background-color: #666699;
+  margin-right: auto;
+  margin-left: auto;
+}
+.targetFF {
+  width:66.66666%;
+  background-color: #97b847;
+  margin-right: auto;
+  margin-left: auto;
+}
+.targetRF {
+  width:66.66666%;
+  background-color: #0099cc;
+  margin-right: auto;
+  margin-left: auto;
+}
+.innerTarget{
+  padding: 10px 0;
+  background-color: #f6f6f6;
+  margin-right: auto;
+  margin-left: auto;
+  color: #2a2a2a;
+  font-family: sans-serif;
+  font-size: larger;
+}
+#circle {
+
+    text-align:center;
+    border: none;
+    display: block;
+    margin: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
 
 .formStyle {
     font-size:18pt;
@@ -95,7 +150,7 @@ img {
 
 
 
-@media (min-width:800px){
+@media (min-width:750px){
 
 .fit{width:33.33333%}
 
@@ -110,7 +165,9 @@ img {
     font-size: 16px;
     margin: 10px 0;
 }
-
+.button:hover{
+  background-color: #012744; 
+}
 #submit {
   text-align: center;
  }
@@ -122,6 +179,55 @@ img {
   margin: 0 auto;  
   padding: 10px 0;
   text-align: center; 
+}
+.target {
+  width:66.66666%;
+  background-color: #012744;
+  margin-right: auto;
+  margin-left: auto;
+}
+.targetSB {
+  width:66.66666%;
+  background-color: #e87d1d;
+  margin-right: auto;
+  margin-left: auto;
+}
+.targetBS {
+  width:66.66666%;
+  background-color: #666699;
+  margin-right: auto;
+  margin-left: auto;
+}
+.targetFF {
+  width:66.66666%;
+  background-color: #97b847;
+  margin-right: auto;
+  margin-left: auto;
+}
+.targetRF {
+  width:66.66666%;
+  background-color: #0099cc;
+  margin-right: auto;
+  margin-left: auto;
+}
+.innerTarget{
+  padding: 10px 0;
+  width:86.66666%;
+  background-color: #f6f6f6;
+  margin-right: auto;
+  margin-left: auto;
+  color: #2a2a2a;
+  font-family: sans-serif;
+  font-size: larger;
+}
+#circle {
+
+    text-align:center;
+    border: none;
+    display: block;
+    margin: auto;
+    max-width: 250px;
+    max-height: 250px;
 }
 
  #ageDiv {
@@ -167,6 +273,9 @@ img {
 @media (min-width:1200px){
 .fit{width:33.33333%}
 
+.button:hover{
+  background-color: #012744; 
+}
 .button {
     background-color: #008CBA; 
     border: none;
@@ -188,6 +297,55 @@ img {
   text-align: center; 
 }
 
+.target {
+  width:66.66666%;
+  background-color: #012744;
+  margin-right: auto;
+  margin-left: auto;
+}
+.targetSB {
+  width:66.66666%;
+  background-color: #e87d1d;
+  margin-right: auto;
+  margin-left: auto;
+}
+.targetBS {
+  width:66.66666%;
+  background-color: #666699;
+  margin-right: auto;
+  margin-left: auto;
+}
+.targetFF {
+  width:66.66666%;
+  background-color: #97b847;
+  margin-right: auto;
+  margin-left: auto;
+}
+.targetRF {
+  width:66.66666%;
+  background-color: #0099cc;
+  margin-right: auto;
+  margin-left: auto;
+}
+.innerTarget{
+  padding: 10px 0;
+  width:86.66666%;
+  background-color: #f6f6f6;
+  margin-right: auto;
+  margin-left: auto;
+  color: #2a2a2a;
+  font-family: sans-serif;
+  font-size: larger;
+}
+#circle {
+
+    text-align:center;
+    border: none;
+    display: block;
+    margin: auto;
+    max-width: 250px;
+    max-height: 250px;
+}
  #ageDiv {
     background-color: #97b847;
     text-align: center;
