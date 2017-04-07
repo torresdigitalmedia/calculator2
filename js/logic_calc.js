@@ -410,4 +410,38 @@ function reload() {
 }
 
 
+function RF() {
 
+        document.getElementById("targetElement").innerHTML = "";
+        var RFFF_RF = document.createElement('article');
+        RFFF_RF.innerHTML = document.getElementById('RFFF_RF').innerHTML; 
+        document.getElementById("targetElement").appendChild(RFFF_RF);
+        document.getElementById("targetElement").className = "targetRF";     
+}
+
+function FF() {
+
+        document.getElementById("targetElement").innerHTML = "";
+        var RFFF_FF = document.createElement('article');
+        RFFF_FF.innerHTML = document.getElementById('RFFF_FF').innerHTML; 
+        document.getElementById("targetElement").appendChild(RFFF_FF);
+        document.getElementById("targetElement").className = "targetFF";     
+}
+
+function BS() {
+
+        document.getElementById("targetElement").innerHTML = "";
+        var FFBS_BS = document.createElement('article');
+        FFBS_BS.innerHTML = document.getElementById('FFBS_BS').innerHTML; 
+        document.getElementById("targetElement").appendChild(FFBS_BS);
+        document.getElementById("targetElement").className = "targetBS";     
+}
+
+function FF_FF() {
+
+        document.getElementById("targetElement").innerHTML = "";
+        var FFBS_FF = document.createElement('article');
+        FFBS_FF.innerHTML = document.getElementById('FFBS_FF').innerHTML; 
+        document.getElementById("targetElement").appendChild(FFBS_FF);
+        document.getElementById("targetElement").className = "targetFF";     
+}

@@ -12,9 +12,15 @@
 <body>
 
 
+      <header id="logo">
+        <img src="images/logo_blue.png"> 
+      </header>
+
 <header id="title" >
-  <a href="file://c1wbidws51/Apps/ChHealthEducation/chec.chw.org/TransporterTraining/test.html" ><img src="images/CSC.svg" height="450px" width="450px"></a>        
+  <a href="file://c1wbidws51/Apps/ChHealthEducation/chec.chw.org/TransporterTraining/test.html" ><img src="images/CSC.svg" height="450px" width="450px"></a>    
 </header>
+
+
 
           <article>
             <p id="titleText">Enter the child's information in below and click submit.</p>
@@ -92,7 +98,7 @@
 
   <script id="RF" language="text">
     <section class="innerTarget">
-          <p><strong>Your child should ride in a REAR FACING CAR SEAT</strong></p>
+          <p style="text-align: center"><strong>Your child should ride in a REAR FACING CAR SEAT</strong></p>
             <ul><strong>Rear facing car seats include:</strong>
               <li>Rear facing only seats</li>
               <li>Convertible seats</li>
@@ -134,14 +140,25 @@
 <script id="RFFF" language="text">
     <section class="innerTarget">
  
-    <strong>This child may be able to ride in a rear facing car seat or a forward facing car seat.</strong>
+    <p style="text-align: center"><strong>This child may be able to ride in a rear facing car seat or a forward facing car seat.</strong></p>
       <ul><strong>If the child has reached the rear facing height or weight limits of the car seat, you should:</strong>
         <li>Look for a different rear facing car seat with higher weight and height limits.</li>
         <li>Use a forward facing car seat.</li>
       </ul>
+
+        <section id="submit">
       
-          <img id="circle" src="images/rearFace.png"/>
-          <img id="circle" src="images/forwardFace.png"/>
+          <img id="circleDouble" src="images/rearFace.png"/>
+          <img id="circleDouble" src="images/forwardFace.png"/>
+
+          </section>
+
+        <section id="submit"> 
+
+                    <input type="button" class="button" onclick="RF()" value="RF" id="submitButton">
+                     <input type="button" class="button" onclick="FF()" value="FF" id="submitButton">
+
+              </section>
 
       <section id="submit"> 
 
@@ -153,9 +170,96 @@
 
 </script>
 
+<script id="RFFF_RF" language="text">
+    <section class="innerTarget">
+          <p style="text-align: center"><strong>Your child should ride in a REAR FACING CAR SEAT</strong></p>
+            <ul><strong>Rear facing car seats include:</strong>
+              <li>Rear facing only seats</li>
+              <li>Convertible seats</li>
+              <li>All-in-one-seats</li>
+            </ul>
+
+          <ul><strong>Facts:</strong>
+              <li>Its best to keep a child rear facing as long as they are within the weight and height limits for the car seat.</li>
+              <li>Rear facing is five times safer than forward facing.</li>
+              <li>A child’s head, neck and spine are better protected when rear facing.</li>
+            </ul>
+
+            <ul><strong>How child should fit in rear facing car seat:</strong>
+              <li>Top of child’s head should be at least 1 inch below the top of the car seat.</li>
+              <li>Harness straps should be at or below the child’s shoulders.</li>
+              <li>Harness straps should be snug.</li>
+              <li>Chest clip should be at armpit level.</li>
+            </ul>
+
+
+                <img id="circle" src="images/rearFace.png"/>
+
+                  <audio autoplay>
+                    <source src="" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+
+             <section id="submit"> 
+
+                    <input type="button" class="button" onclick="RF()" value="Rear Facing" id="submitButton" style="background-color: #012744">
+                     <input type="button" class="button" onclick="FF()" value="Forward Facing" id="submitButton">
+
+              </section>     
+
+            <section id="submit"> 
+
+            <input type="button" class="button" onclick="reload()" value="Retry" id="submitButton">
+
+              </section>   
+         
+
+    </section>
+
+</script>
+
+<script id="RFFF_FF" language="text">
+  <section class="innerTarget">
+        <p style="text-align: center"><strong>This child should ride in a forward facing car seat.</strong></p>
+          <ul><strong>Forward facing seats:</strong>
+            <li>Convertible seats</li>
+            <li>Combination seats</li>
+            <li>All-in-one-seats</li>
+          </ul>
+
+        <ul><strong>Facts:</strong>
+            <li>Its best to keep a child rear facing as long as they are within the weight and height limits for the car seat.</li>
+            <li>A forward facing car seat with harness protects a child by contacting the strongest parts of the body and spreading the crash forces over a wide area of the body.</li>
+          </ul>
+
+          <ul><strong>How child should fit in rear facing car seat:</strong>
+            <li>Top of child’s head should be at least 1 inch below the top of the car seat.</li>
+            <li>Harness straps should be at or below the child’s shoulders.</li>
+            <li>Harness straps should be snug.</li>
+            <li>Chest clip should be at armpit level.</li>
+          </ul>
+        <img id="circle" src="images/forwardFace.png"/>
+
+
+             <section id="submit"> 
+
+                    <input type="button" class="button" onclick="RF()" value="Rear Facing" id="submitButton">
+                     <input type="button" class="button" onclick="FF()" value="Forward Facing" id="submitButton" style="background-color: #012744">
+
+              </section> 
+
+          <section id="submit"> 
+
+                    <input type="button" class="button" onclick="reload()" value="Retry" id="submitButton">
+
+              </section>
+  </section>
+
+</script>
+
 <script id="FF" language="text">
   <section class="innerTarget">
-        <strong>This child should ride in a forward facing car seat.</strong>
+        <p style="text-align: center"><strong>This child should ride in a forward facing car seat.</strong></p>
           <ul><strong>Forward facing seats:</strong>
             <li>Convertible seats</li>
             <li>Combination seats</li>
@@ -186,13 +290,103 @@
 
 <script id="FFBS" language="text">
   <section class="innerTarget">
-      <strong>This child may be able to ride in a forward facing car seat or a booster seat.</strong>
+      <p style="text-align: center"><strong>This child may be able to ride in a forward facing car seat or a booster seat.</strong></p>
         <ul><strong>If the child has reached the forward facing height or weight limits of the car seat, you should:</strong>
           <li>Look for a different forward facing car seat with higher weight and height limits.</li>
           <li>Use a booster seat.</li>
         </ul>
-      <img id="circle" src="images/forwardFace.png"/>
-      <img id="circle" src="images/booster.png"/>
+
+      <section id="submit">
+
+      <img id="circleDouble" src="images/forwardFace.png"/>
+      <img id="circleDouble" src="images/booster.png"/>
+
+      </section>
+
+      <section id="submit"> 
+
+                    <input type="button" class="button" onclick="FF_FF()" value="Forward Facing" id="submitButton">
+                     <input type="button" class="button" onclick="BS()" value="Booster Seat" id="submitButton">
+
+              </section>
+
+            <section id="submit"> 
+
+                  <input type="button" class="button" onclick="reload()" value="Retry" id="submitButton">
+
+            </section> 
+
+    </section> 
+
+</script>
+
+<script id="FFBS_FF" language="text">
+  <section class="innerTarget">
+        <p style="text-align: center"><strong>This child should ride in a forward facing car seat.</strong></p>
+          <ul><strong>Forward facing seats:</strong>
+            <li>Convertible seats</li>
+            <li>Combination seats</li>
+            <li>All-in-one-seats</li>
+          </ul>
+
+        <ul><strong>Facts:</strong>
+            <li>Its best to keep a child rear facing as long as they are within the weight and height limits for the car seat.</li>
+            <li>A forward facing car seat with harness protects a child by contacting the strongest parts of the body and spreading the crash forces over a wide area of the body.</li>
+          </ul>
+
+          <ul><strong>How child should fit in rear facing car seat:</strong>
+            <li>Top of child’s head should be at least 1 inch below the top of the car seat.</li>
+            <li>Harness straps should be at or below the child’s shoulders.</li>
+            <li>Harness straps should be snug.</li>
+            <li>Chest clip should be at armpit level.</li>
+          </ul>
+        <img id="circle" src="images/forwardFace.png"/>
+
+
+             <section id="submit"> 
+
+                    <input type="button" class="button" onclick="FF_FF()" value="Foward Facing" id="submitButton" style="background-color: #012744">
+                     <input type="button" class="button" onclick="BS()" value="Booster Seat" id="submitButton">
+
+              </section> 
+
+          <section id="submit"> 
+
+                    <input type="button" class="button" onclick="reload()" value="Retry" id="submitButton">
+
+              </section>
+  </section>
+
+</script>
+
+<script id="FFBS_BS" language="text">
+  <section class="innerTarget">
+         <p style="text-align: center"> <strong>This child should ride in a booster seat.</strong></p>
+            <ul><strong>Forward facing seats:</strong>
+              <li>High back booster seats</li>
+              <li>Backless booster seats</li>
+              <li>Combination seats</li>
+              <li>All-in-one-seats</li>
+            </ul>
+
+          <ul><strong>Facts:</strong>
+              <li>Its best to keep a child rear facing as long as they are within the weight and height limits for the car seat.</li>
+              <li>A booster seat raises a child so the vehicle’s lap and shoulder belts fit properly over the strongest parts of the child’s body.</li>
+            </ul>
+
+            <ul><strong>How child should fit in booster seat:</strong>
+              <li>Top of child’s ears should not be above the top of the booster seat or vehicle seat.</li>
+              <li>Lap belt must be flat and snug, touching the child’s thighs.</li>
+              <li>Shoulder belt must be flat and snug, between the child’s neck and arm.</li>
+            </ul>
+          <img id="circle" src="images/booster.png"/>
+
+             <section id="submit"> 
+
+                    <input type="button" class="button" onclick="FF_FF()" value="Foward Facing" id="submitButton">
+                     <input type="button" class="button" onclick="BS()" value="Booster Seat" id="submitButton" style="background-color: #012744">
+
+              </section>
 
             <section id="submit"> 
 
@@ -206,7 +400,7 @@
 
 <script id="BS" language="text">
     <section class="innerTarget">
-          <strong>This child should ride in a booster seat.</strong>
+          <p style="text-align: center"><strong>This child should ride in a booster seat.</strong></p>
             <ul><strong>Forward facing seats:</strong>
               <li>High back booster seats</li>
               <li>Backless booster seats</li>
@@ -237,7 +431,7 @@
 
 <script id="seatbelt" language="text">
     <section class="innerTarget">
-          <strong>This child may be able to ride in a seat belt.</strong>
+          <p style="text-align: center"><strong>This child may be able to ride in a seat belt.</strong></p>
             <ul><strong>A seat belt fits properly when the:</strong>
               <li>Child can sit all the way back against the vehicle seat.</li>
               <li>Child’s knees bend comfortably at the edge of the vehicle seat.</li>
@@ -258,6 +452,8 @@
 
     </section>
 </script>
+
+
 
 
   <aside class="mainBody">

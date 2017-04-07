@@ -26,7 +26,7 @@ img {
     height: auto;
 }
 
-@media (min-width:295px){
+@media (min-width:215px){
 
 .fit
 {
@@ -40,7 +40,7 @@ img {
     background-color: #008CBA; 
     border: none;
     color: white;
-    padding: 25px 42px;
+    padding: 20px 22px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -54,48 +54,58 @@ img {
   text-align: center;
  }
 .target {
+  width:100%;
   background-color: #012744;
   margin-right: auto;
   margin-left: auto;
 }
 .targetSB {
-  width:66.66666%;
+  width:100%;
   background-color: #e87d1d;
   margin-right: auto;
   margin-left: auto;
 }
 .targetBS {
-  width:66.66666%;
+  width:100%;
   background-color: #666699;
   margin-right: auto;
   margin-left: auto;
 }
 .targetFF {
-  width:66.66666%;
+  width:100%;
   background-color: #97b847;
   margin-right: auto;
   margin-left: auto;
 }
 .targetRF {
-  width:66.66666%;
+  width:100%;
   background-color: #0099cc;
   margin-right: auto;
   margin-left: auto;
 }
 .innerTarget{
   padding: 10px 0;
+  width:90%;
   background-color: #f6f6f6;
   margin-right: auto;
   margin-left: auto;
   color: #2a2a2a;
   font-family: sans-serif;
-  font-size: larger;
+  font-size: small;
 }
-#circle {
+#circleDouble {
 
     text-align:center;
     border: none;
+    margin: auto;
+    max-width: 175px;
+    max-height: 175px;
+}
+
+#circle {
     display: block;
+    text-align:center;
+    border: none;
     margin: auto;
     max-width: 200px;
     max-height: 200px;
@@ -145,20 +155,31 @@ img {
   font-family: "Merriweather";
   font-size: 20px;
  }
+ #logo {
+    text-align: center;
+    max-height: 150px;
+    max-width:  150px;
+    margin-right: auto;
+    margin-left: auto;
+ }
 
 }
 
+@media (min-width:550px){
 
+.fit
+{
+  width:33.33333%;
+ float:left;
+  width:100%;
 
-@media (min-width:750px){
-
-.fit{width:33.33333%}
+}
 
 .button {
     background-color: #008CBA; 
     border: none;
     color: white;
-    padding: 25px 42px;
+    padding: 20px 22px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -171,17 +192,7 @@ img {
 #submit {
   text-align: center;
  }
-
-.formStyle {
-    font-size:18pt;
-     height:75px;
-     width:125px;
-  margin: 0 auto;  
-  padding: 10px 0;
-  text-align: center; 
-}
 .target {
-  width:66.66666%;
   background-color: #012744;
   margin-right: auto;
   margin-left: auto;
@@ -218,13 +229,164 @@ img {
   margin-left: auto;
   color: #2a2a2a;
   font-family: sans-serif;
-  font-size: larger;
+  font-size: medium;
 }
-#circle {
+#circleDouble {
 
     text-align:center;
     border: none;
+    margin: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+#circle {
     display: block;
+    text-align:center;
+    border: none;
+    margin: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.formStyle {
+    font-size:18pt;
+     height:75px;
+     width:125px;
+  margin: 0 auto;  
+  padding: 10px 0;
+  text-align: center; 
+}
+
+ #ageDiv {
+    background-color: #97b847;
+    text-align: center;
+    min-height: 365px;
+     max-height: 365px;
+ }
+
+ #heightDiv {
+    background-color: #0099cc;
+    text-align: center;
+    min-height: 365px;
+     max-height: 365px;
+ }
+ #weightDiv {
+    background-color: #666699;
+    text-align: center;
+    min-height: 365px;
+     max-height: 365px;
+ }
+ #title {
+  text-align: center;
+ }
+
+ #calcText {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Myriad Pro";
+  font-size: 24px;
+ }
+  #titleText {
+  text-align: center;
+  color: #000000;
+  font-family: "Merriweather";
+  font-size: 20px;
+ }
+ #logo {
+    text-align: center;
+    max-height: 150px;
+    max-width:  150px;
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+}
+
+
+
+
+@media (min-width:750px){
+
+.fit{width:33.33333%}
+
+.button {
+    background-color: #008CBA; 
+    border: none;
+    color: white;
+    padding: 25px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.button:hover{
+  background-color: #012744; 
+}
+#submit {
+  text-align: center;
+ }
+
+.formStyle {
+    font-size:18pt;
+     height:75px;
+     width:125px;
+  margin: 0 auto;  
+  padding: 10px 0;
+  text-align: center; 
+}
+.target {
+  width:86.66666%;
+  background-color: #012744;
+  margin-right: auto;
+  margin-left: auto;
+}
+.targetSB {
+  width:86.66666%;
+  background-color: #e87d1d;
+  margin-right: auto;
+  margin-left: auto;
+}
+.targetBS {
+  width:86.66666%;
+  background-color: #666699;
+  margin-right: auto;
+  margin-left: auto;
+}
+.targetFF {
+  width:86.66666%;
+  background-color: #97b847;
+  margin-right: auto;
+  margin-left: auto;
+}
+.targetRF {
+  width:86.66666%;
+  background-color: #0099cc;
+  margin-right: auto;
+  margin-left: auto;
+}
+.innerTarget{
+  padding: 10px 0;
+  width:86.66666%;
+  background-color: #f6f6f6;
+  margin-right: auto;
+  margin-left: auto;
+  color: #2a2a2a;
+  font-family: sans-serif;
+  font-size: large;
+}
+#circleDouble {
+
+    text-align:center;
+    border: none;
+    margin: auto;
+    max-width: 250px;
+    max-height: 250px;
+}
+#circle {
+    display: block;
+    text-align:center;
+    border: none;
     margin: auto;
     max-width: 250px;
     max-height: 250px;
@@ -264,6 +426,14 @@ img {
   color: #000000;
   font-family: "Merriweather";
   font-size: 22px;
+ }
+ #logo {
+    padding-left: 10px;
+    padding-top: 5px;
+    max-height: 150px;
+    max-width:  150px;
+    margin-right: auto;
+    margin-left: 0;
  }
 
 }
@@ -335,13 +505,20 @@ img {
   margin-left: auto;
   color: #2a2a2a;
   font-family: sans-serif;
-  font-size: larger;
+  font-size: x-large;
 }
-#circle {
+#circleDouble {
 
     text-align:center;
     border: none;
+    margin: auto;
+    max-width: 250px;
+    max-height: 250px;
+}
+#circle {
     display: block;
+    text-align:center;
+    border: none;
     margin: auto;
     max-width: 250px;
     max-height: 250px;
@@ -383,6 +560,14 @@ img {
   color: #000000;
   font-family: "Merriweather";
   font-size: 22px;
+ }
+ #logo {
+    padding-left: 10px;
+    padding-top: 5px;
+    max-height: 200px;
+    max-width:  200px;
+    margin-right: auto;
+    margin-left: 0;
  }
 
 }
