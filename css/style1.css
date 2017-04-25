@@ -83,6 +83,12 @@ img {
   margin-right: auto;
   margin-left: auto;
 }
+.targetE {
+  width:100%;
+  background-color: #DC3D1B;
+  margin-right: auto;
+  margin-left: auto;
+}
 .innerTarget{
   padding: 10px 0;
   width:90%;
@@ -218,6 +224,12 @@ img {
 .targetRF {
   width:66.66666%;
   background-color: #0099cc;
+  margin-right: auto;
+  margin-left: auto;
+}
+.targetE {
+  width:66.66666%;
+  background-color: #DC3D1B;
   margin-right: auto;
   margin-left: auto;
 }
@@ -365,6 +377,13 @@ img {
   margin-right: auto;
   margin-left: auto;
 }
+
+.targetE {
+  width:86.66666%;
+  background-color: #DC3D1B;
+  margin-right: auto;
+  margin-left: auto;
+}
 .innerTarget{
   padding: 10px 0;
   width:86.66666%;
@@ -494,6 +513,12 @@ img {
 .targetRF {
   width:66.66666%;
   background-color: #0099cc;
+  margin-right: auto;
+  margin-left: auto;
+}
+.targetE {
+  width:66.66666%;
+  background-color: #DC3D1B;
   margin-right: auto;
   margin-left: auto;
 }

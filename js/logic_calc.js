@@ -394,8 +394,10 @@ case (childObject.age >= 2921 && childObject.weight > 1279 && childObject.height
 
 
 default:
-alert("Please go back and check the age, weight and height entered.  If the information entered is correct you need to contact a child passenger safety technician in your area for more information on the correct car seat for your child. Go to www.chw.org/carseats for information in your area.");
-
+        var divE = document.createElement('article');
+        divE.innerHTML = document.getElementById('error').innerHTML; 
+        document.getElementById("targetElement").appendChild(divE);
+        document.getElementById("targetElement").className = "targetE"; 
 
 
 }
